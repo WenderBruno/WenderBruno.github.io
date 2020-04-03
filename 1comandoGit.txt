@@ -1,0 +1,102 @@
+
+wende@DESKTOP-OUL9OPV MINGW64 ~
+$ cd Desktop
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop
+$ cd site/
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site
+$ ls
+imagens/  index.html
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site
+$ git init
+Initialized empty Git repository in C:/Users/wende/Desktop/site/.git/
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git remote add origin https://github.com/WenderBruno/WenderBruno.github.io.git
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git add .
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   imagens/perfilGit.png
+        new file:   index.html
+
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git commit -m "Arquivos iniciais"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'wende@DESKTOP-OUL9OPV.(none)')
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/WenderBruno/WenderBruno.github.io.git'
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/WenderBruno/WenderBruno.github.io.git'
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ ^C
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git commit -m "initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'wende@DESKTOP-OUL9OPV.(none)')
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git config --global user.email "wenderbruno3@gmail.com"
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git config --global user.name "WenderBruno"
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 653547b] Initial commit
+ 2 files changed, 14 insertions(+)
+ create mode 100644 imagens/perfilGit.png
+ create mode 100644 index.html
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 137.53 KiB | 10.58 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/WenderBruno/WenderBruno.github.io.git
+ * [new branch]      master -> master
+
+wende@DESKTOP-OUL9OPV MINGW64 ~/Desktop/site (master)
